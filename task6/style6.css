@@ -105,7 +105,6 @@ body {
     border: none;
     outline: none;
     font-size: 1.75rem;
-    font-family: "Adobe Heiti Std";
     color: rgb(153, 153, 153);
     width: 100%;
     text-align: center;
@@ -117,7 +116,6 @@ body {
     border: none;
     outline: none;
     font-size: 1.75rem;
-    font-family: "Adobe Heiti Std";
     color: rgb(153, 153, 153);
     width: 98%;
     text-align: center;
@@ -132,8 +130,7 @@ ul {
 }
 
 li i {
-    background: url(img3.png);
-    background-repeat: no-repeat;
+    background: url(img3.png) no-repeat;
     display: inline;
     float: left;
     width: 24px;
@@ -151,7 +148,6 @@ li i {
 
 .service {
     font-size: 2rem;
-    font-family: "Adobe Heiti Std";
     color: rgb(93, 93, 93);
     margin-left: 0.5rem;
     overflow: hidden;
@@ -170,7 +166,6 @@ li i {
 .date {
     margin-left: 3.3rem;
     font-size: 1.75rem;
-    font-family: "Adobe Heiti Std";
     color: rgb(51, 51, 51);
     overflow: hidden;
     text-overflow: ellipsis;
@@ -180,7 +175,6 @@ li i {
 .price {
     float: right;
     font-size: 1.875rem;
-    font-family: "Adobe Heiti Std";
     color: rgb(230, 59, 14);
     display: flex;
     justify-content: space-between;
@@ -225,8 +219,7 @@ span i {
 }
 
 .button-left {
-    background: url(home.png);
-    background-repeat: no-repeat;
+    background: url(home.png) no-repeat;
     width: 46px;
     height: 60px;
     outline: none;
@@ -249,8 +242,7 @@ span i {
 }
 
 .button-right {
-    background: url(person.png);
-    background-repeat: no-repeat;
+    background: url(person.png) no-repeat;
     width: 42px;
     height: 60px;
     outline: none;
