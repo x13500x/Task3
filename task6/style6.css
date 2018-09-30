@@ -1,0 +1,262 @@
+html {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(95, 192, 205);
+    overflow: hidden;
+    margin: 0 auto;
+    min-width: 320px;
+}
+
+.button1 {
+    background: url(location.png);
+    background-size: cover;
+    position: absolute;
+    top: 1.1rem;
+    right: 1.5rem;
+    width: 35px;
+    height: 35px;
+    outline: none;
+    border: none;
+}
+
+.switch {
+    position: relative;
+    margin: 0.5rem auto;
+    height: 4.5rem;
+    width: 40%;
+    background: rgb(85, 168, 179);
+    border-radius: 10px;
+}
+
+.switch-label {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 50%;
+    line-height: 4.5rem;
+    font-size: 2.125rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.switch-input {
+    display: none;
+}
+
+.switch-input:checked + .switch-label {
+    color: rgb(95, 192, 205);
+}
+
+.switch-input:checked + .switch-label-on ~ .switch-selection {
+    left: 50%;
+}
+
+.switch-selection {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+}
+
+.main {
+    margin-bottom: 8rem;
+}
+
+.part1 {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    background-color: rgb(255, 255, 255);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px rgb(225, 229, 231) solid;
+}
+
+.part2 {
+    background-color: rgb(255, 255, 255);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px rgb(225, 229, 231) solid;
+}
+
+.input1 {
+    width: 33.3%;
+    border-right: 1px rgb(225, 229, 231) solid;
+}
+
+.input2 {
+    width: 33.3%;
+    overflow: hidden;
+}
+
+.table1 {
+    border: none;
+    outline: none;
+    font-size: 1.75rem;
+    font-family: "Adobe Heiti Std";
+    color: rgb(153, 153, 153);
+    width: 100%;
+    text-align: center;
+    text-align-last: center;
+    background: transparent;
+}
+
+.table2 {
+    border: none;
+    outline: none;
+    font-size: 1.75rem;
+    font-family: "Adobe Heiti Std";
+    color: rgb(153, 153, 153);
+    width: 98%;
+    text-align: center;
+    text-align-last: center;
+    /* border: 0; */
+    background: transparent;
+}
+
+ul {
+    list-style: none;
+    padding-left: 2rem;
+}
+
+li i {
+    background: url(img3.png);
+    background-repeat: no-repeat;
+    display: inline;
+    float: left;
+    width: 24px;
+    height: 33px;
+    margin-right: 1rem;
+}
+
+.dp {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.service {
+    font-size: 2rem;
+    font-family: "Adobe Heiti Std";
+    color: rgb(93, 93, 93);
+    margin-left: 0.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.details1 i {
+    background-position: 0 0;
+}
+
+.details2 i {
+    background-position: 0 -38px;
+}
+
+.date {
+    margin-left: 3.3rem;
+    font-size: 1.75rem;
+    font-family: "Adobe Heiti Std";
+    color: rgb(51, 51, 51);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.price {
+    float: right;
+    font-size: 1.875rem;
+    font-family: "Adobe Heiti Std";
+    color: rgb(230, 59, 14);
+    display: flex;
+    justify-content: space-between;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+span i {
+    display: inline;
+    float: right;
+    margin-left: 1rem;
+    margin-top: -0.3rem;
+}
+
+.price i {
+    background-position: 0 -77px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    color: rgba(255, 255, 255, 1);
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(248, 250, 251);
+    border-top: 1px rgb(219, 229, 231) solid;
+}
+
+.footer-left {
+    margin-left: 15%;
+}
+
+.footer-center {
+    margin: auto;
+}
+
+.footer-right {
+    margin-right: 15%;
+}
+
+.button-left {
+    background: url(home.png);
+    background-repeat: no-repeat;
+    width: 46px;
+    height: 60px;
+    outline: none;
+    border: none;
+    line-height: 120px;
+    font-size: 1.8rem;
+    color: rgb(95, 192, 205);
+    padding: 0;
+}
+
+.button-center {
+    background: url(write1.png);
+    background-size: cover;
+    width: 94px;
+    height: 94px;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.button-right {
+    background: url(person.png);
+    background-repeat: no-repeat;
+    width: 42px;
+    height: 60px;
+    outline: none;
+    border: none;
+    line-height: 120px;
+    font-size: 1.8rem;
+    padding: 0;
+    color: rgb(153, 153, 153);
+}
